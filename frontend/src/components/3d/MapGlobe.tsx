@@ -11,9 +11,7 @@ export default function MapGlobe() {
   useEffect(() => {
     // Auto-rotate
     if (globeEl.current) {
-      // @ts-expect-error react-globe bounds property mapping lacks full definition
       globeEl.current.controls().autoRotate = true;
-      // @ts-expect-error react-globe bounds property mapping lacks full definition
       globeEl.current.controls().autoRotateSpeed = 1.5;
     }
     
