@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-500: #3b82f6;
+  --color-primary-600: #2563eb;
+  --color-dark-800: #1f2937;
+  --color-dark-900: #111827;
+}
+
+:root {
+  --foreground-rgb: 17, 24, 39; /* text-gray-900 for clear black text */
+  --background-start-rgb: 240, 244, 248; /* soft light blue-gray */
+  --background-end-rgb: 255, 255, 255; 
+  --glass-bg: rgba(255, 255, 255, 0.65);
+  --glass-border: rgba(255, 255, 255, 0.4);
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Glassmorphism utility classes */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+}
+
+.glass-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+}
+
+/* Phone Input Overrides */
+.PhoneInput {
+  display: flex;
+  align-items: center;
+}
+
+.PhoneInputInput {
+  flex: 1;
+  min-width: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: inherit;
+}
+.PhoneInputCountry {
+  margin-right: 0.5rem;
+}
