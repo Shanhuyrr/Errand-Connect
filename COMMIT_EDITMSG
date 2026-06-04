@@ -1,0 +1,69 @@
+Initial commit: Student Hostel Campus Errands Service App
+
+# Conflicts:
+#	.gitignore
+#	README.md
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Author:    Muhammad Usman <usman@example.com>
+#
+# interactive rebase in progress; onto 6b0c7a4
+# Last command done (1 command done):
+#    pick 1991429 # Initial commit: Student Hostel Campus Errands Service App
+# Next command to do (1 remaining command):
+#    pick 0d63e30 # Add static export for GitHub Pages
+# You are currently rebasing branch 'main' on '6b0c7a4'.
+#
+# Changes to be committed:
+#	modified:   .gitignore
+#	modified:   README.md
+#	new file:   backend/config/db.js
+#	new file:   backend/controllers/authController.js
+#	new file:   backend/controllers/requestController.js
+#	new file:   backend/middleware/authMiddleware.js
+#	new file:   backend/models/TaskRequest.js
+#	new file:   backend/models/User.js
+#	new file:   backend/package-lock.json
+#	new file:   backend/package.json
+#	new file:   backend/routes/authRoutes.js
+#	new file:   backend/routes/requestRoutes.js
+#	new file:   backend/server.js
+#	new file:   frontend/.gitignore
+#	new file:   frontend/AGENTS.md
+#	new file:   frontend/CLAUDE.md
+#	new file:   frontend/README.md
+#	new file:   frontend/eslint.config.mjs
+#	new file:   frontend/next.config.ts
+#	new file:   frontend/package-lock.json
+#	new file:   frontend/package.json
+#	new file:   frontend/postcss.config.mjs
+#	new file:   frontend/public/3d_bg.png
+#	new file:   frontend/public/3d_delivery.png
+#	new file:   frontend/public/3d_grocery.png
+#	new file:   frontend/public/3d_laundry.png
+#	new file:   frontend/public/3d_printing.png
+#	new file:   frontend/public/built_by_students.png
+#	new file:   frontend/public/file.svg
+#	new file:   frontend/public/globe.svg
+#	new file:   frontend/public/next.svg
+#	new file:   frontend/public/vercel.svg
+#	new file:   frontend/public/window.svg
+#	new file:   frontend/src/app/about/page.tsx
+#	new file:   frontend/src/app/contact/page.tsx
+#	new file:   frontend/src/app/dashboard/page.tsx
+#	new file:   frontend/src/app/favicon.ico
+#	new file:   frontend/src/app/globals.css
+#	new file:   frontend/src/app/layout.tsx
+#	new file:   frontend/src/app/login/page.tsx
+#	new file:   frontend/src/app/page.tsx
+#	new file:   frontend/src/app/request-service/page.tsx
+#	new file:   frontend/src/app/services/page.tsx
+#	new file:   frontend/src/components/3d/Map3D.tsx
+#	new file:   frontend/src/components/3d/MapGlobe.tsx
+#	new file:   frontend/src/components/layout/Footer.tsx
+#	new file:   frontend/src/components/layout/Navbar.tsx
+#	new file:   frontend/src/components/ui/GlassCard.tsx
+#	new file:   frontend/tsconfig.json
+#
